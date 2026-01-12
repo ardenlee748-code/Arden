@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of E & CO - Web Developer">
+    <meta name="author" content="Ezra Kipngeno">
+    <title>E & CO | Personal Portfolio</title>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>E & CO</h1>
+        <p>Web Developer & Designer</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ezra Kipngeno, a passionate web developer with experience in HTML, CSS, JavaScript, and various frameworks. I love creating clean, responsive websites that provide great user experiences. In my free time, I enjoy learning new technologies, reading tech blogs, and contributing to open-source projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>
+                <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/html-5-logo.png" alt="HTML5" class="skill-icon">
+                <span>HTML5</span>
+            </li>
+            <li>
+                <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/css3-logo.png" alt="CSS3" class="skill-icon">
+                <span>CSS3<br>(Flexbox & Grid)</span>
+            </li>
+            <li>
+                <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" alt="JavaScript" class="skill-icon">
+                <span>JavaScript<br>(ES6+)</span>
+            </li>
+            <li>
+                <img src="https://www.clipartmax.com/png/middle/270-2706458_responsive-web-icon-responsive-web-design.png" alt="Responsive Design" class="skill-icon">
+                <span>Responsive<br>Web Design</span>
+            </li>
+            <li>
+                <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/git-logo.png" alt="Git" class="skill-icon">
+                <span>Git & GitHub</span>
+            </li>
+            <li>
+                <img src="https://assets.stickpng.com/images/62a74dfe223343fbc2207d02.png" alt="React" class="skill-icon">
+                <span>Basic React</span>
+            </li>
+            <li>
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/Adobe-Photoshop-Logo.png" alt="Photoshop" class="skill-icon">
+                <span>Adobe<br>Photoshop</span>
+            </li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Code Examples & Projects</h2>
+        <p>Cool Projects:</p>
+        <div class="projects-gallery">
+            <img src="code-screenshot1.jpg" alt="HTML & CSS Project Screenshot" class="project-img">
+            <img src="code-screenshot2.jpg" alt="JavaScript Code Screenshot" class="project-img">
+            <img src="code-screenshot3.jpg" alt="Adobe  Dark Mode Project" class="project-img">
+            <img src="code-screenshot4.jpg" alt="HTML  Dark Mode Project" class="project-img">
+            <img src="code-screenshot5.jpg" alt="CSS  Dark Mode Project" class="project-img">
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out using the form below!</p>
+        <form action="https://formspree.io/f/your-endpoint" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" placeholder="your@email.com" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 E & CO. All rights reserved.</p>
+        <p class="social-icons">
+            <a href="https://github.com/@jantified138-nerd" target="_blank" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://linkedin.com/in/@jantymanty" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://twitter.com/@jantified00" target="_blank" title="X/Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+        </p>
+    </footer>
+
+</body>
+</html>
